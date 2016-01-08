@@ -378,3 +378,55 @@ section {
     -webkit-transform: none;
   }
 }
+//D3 chord styling
+ #tooltip {
+        color: white;
+        opacity: .9;
+        background: #333;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        white-space: nowrap;
+        pointer-events: none;
+      }
+      #circle circle {
+        fill: none;
+        pointer-events: all;
+      }
+      path.group {
+        fill-opacity: .8;
+      }
+      path.chord {
+        fill-opacity: .8;
+        stroke: #000;
+        stroke-width: .25px;
+      }
+      #circle:hover path.fade {
+        display: none;
+      }
+      #graph{
+      margin-left: -200px;
+      }
+//D3 alluvial styling
+      #chart {
+        height: 500px;
+        font: 13px sans-serif;
+        width: 175%;
+        margin-left: -200px;
+      }
+      .node rect {
+        fill-opacity: .9;
+        shape-rendering: crispEdges;
+        stroke-width: 0;
+      }
+      .node text {
+        text-shadow: 0 1px 0 #fff;
+      }
+      .link {
+        fill: none;
+        stroke: #000;
+        stroke-opacity: .2;
+      }
