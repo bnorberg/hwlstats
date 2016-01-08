@@ -303,6 +303,9 @@ article {
       color: #000;
     }
   }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 section {
   max-width: 500px;
@@ -325,6 +328,9 @@ section {
         border: 0;
         color: #000;
         box-sizing: border-box;
+      }
+      a:hover {
+        text-decoration: underline;
       }
       .post-date {
         float: right;
