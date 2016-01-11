@@ -100,9 +100,9 @@
 
           function groupTip (d) {
             var p = d3.format(".1%"), q = d3.format(",.3r")
-            return "Group Info:<br/>"
+            return "Unit Info:<br/>"
                 + d.gname + " accounts for "
-                + p(d.gvalue/d.mtotal) + " of the collaborations in HWL"
+                + p(d.gvalue/d.mtotal) + " (" + q(d.gvalue) + ") of the collaborations in HWL"
           }
 
           function mouseover(d, i) {

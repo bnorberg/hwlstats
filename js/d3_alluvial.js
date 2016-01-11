@@ -304,7 +304,6 @@ var colors = {
             'Humanities Labs':'#ffcd07',
             'Emerging Humanities Networks': '#2b666c',
             'Bridge Hires': '#6c2b66',
-            'Other': '#f5662b',
             'Undergraduate Research': '#3f3e47',
             'Visiting Faculty Fellows': '#2b6c31',
           };
