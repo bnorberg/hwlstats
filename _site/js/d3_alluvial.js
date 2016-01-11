@@ -301,11 +301,11 @@ d3.sankey = function() {
 };
 
 var colors = {
-            'Humanities Labs':'#ffcd07',
-            'Emerging Humanities Networks': '#2b666c',
-            'Bridge Hires': '#6c2b66',
-            'Undergraduate Research': '#3f3e47',
-            'Visiting Faculty Fellows': '#2b6c31',
+            'Humanities Labs':'#ff5107',
+            'Emerging Humanities Networks': '#0739FF',
+            'Bridge Hires': '#d3002b',
+            'Undergraduate Research': '#323138',
+            'Visiting Faculty Fellows': '#005d4a',
           };
       d3.json("/data/hwl_alluvial_dept.json", function(error, json) {
         var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
