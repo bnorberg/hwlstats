@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/notes/activity-by-unit-dashboard</loc>
+    <loc>http://localhost:4000/notes/activity-by-unit-dashboard.html</loc>
     <lastmod>2016-01-09T00:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>/notes/hwl-components-by-unit</loc>
+    <loc>http://localhost:4000/notes/hwl-components-by-unit.html</loc>
     <lastmod>2016-01-07T00:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>/notes/dept-collaboration</loc>
+    <loc>http://localhost:4000/notes/dept-collaboration.html</loc>
     <lastmod>2016-01-07T00:00:00+08:00</lastmod>
   </url>
   <url>
-    <loc>/404</loc>
+    <loc>http://localhost:4000/404</loc>
   </url>
   <url>
-    <loc>/about</loc>
+    <loc>http://localhost:4000/about</loc>
   </url>
   <url>
-    <loc>/</loc>
+    <loc>http://localhost:4000/</loc>
   </url>
     <url>
-      <loc>/notes/dept-collaboration</loc>
+      <loc>http://localhost:4000/notes/dept-collaboration.html</loc>
     </url>
     <url>
-      <loc>/notes/hwl-components-by-unit</loc>
+      <loc>http://localhost:4000/notes/hwl-components-by-unit.html</loc>
     </url>
     <url>
-      <loc>/notes/activity-by-unit-dashboard</loc>
+      <loc>http://localhost:4000/notes/activity-by-unit-dashboard.html</loc>
     </url>
 </urlset>
