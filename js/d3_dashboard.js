@@ -201,7 +201,7 @@ function dashboard(id, fData){
         leg= legend(tF);  // create the legend.
 }
     var freqData;
-    d3.json("hwlstats/data/deptvstype.json", function(error, json) {
+    d3.json("/hwlstats/data/deptvstype.json", function(error, json) {
   if (error) return console.warn(error);
   freqData = json;
   dashboard('#dashboard',freqData);

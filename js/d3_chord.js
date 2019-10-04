@@ -1,7 +1,7 @@
 //*******************************************************************
       //  CREATE MATRIX AND MAP
       //*******************************************************************
-      d3.csv('/hwlstatus/data/hwl.csv', function (error, data) {
+      d3.csv('/hwlstats/data/hwl.csv', function (error, data) {
         var mpr = chordMpr(data);
 
         mpr
