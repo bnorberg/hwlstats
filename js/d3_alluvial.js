@@ -307,7 +307,7 @@ var colors = {
             'Undergraduate Research': '#323138',
             'Visiting Faculty Fellows': '#005d4a',
           };
-      d3.json("/data/hwl_alluvial_dept.json", function(error, json) {
+      d3.json("/hwlstats/data/hwl_alluvial_dept.json", function(error, json) {
         var chart = d3.select("#chart").append("svg").chart("Sankey.Path");
         chart
           .name(label)

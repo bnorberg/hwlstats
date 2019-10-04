@@ -9,7 +9,7 @@
 	{% endif %}
 
 	<a href="{{ link | prepend: site.baseurl }}">
-		<img src="/assets/HWL_GRAPHIC.png" class="gravatar">
+		<img src="{{ "/assets/HWL_GRAPHIC.png"| prepend: site.baseurl }}" class="gravatar">
 	</a>
 	<span class="logo-prompt">{{ prompt }}</span>
 

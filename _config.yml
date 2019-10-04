@@ -10,7 +10,7 @@ author_email:       brian.norberg@duke.edu
 twitter_username:   bnorbe
 
 # Site Settings
-baseurl:            "https://bnorberg.github.io/hwlstats/" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            "https://bnorberg.github.io/hwlstats" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title.html # Post permalink
 timezone:           America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
